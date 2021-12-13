@@ -1,0 +1,6 @@
+package com.epam.exception;
+public class InvalidConsoleInputException extends Exception {
+    public InvalidConsoleInputException() {
+        super("Invalid Console Input");
+    }
+}
